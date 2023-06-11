@@ -9,6 +9,7 @@ public class CheckIfSentenceIsValidOrNot {
 	}
 
 	private static boolean CheckVaid(String s) {
+		String password = "pass_prod_12";
 		int currState = 0;
 		int prevState = 0;
 		int idx = 0;
